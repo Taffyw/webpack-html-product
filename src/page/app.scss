@@ -1,0 +1,16 @@
+@import "var";
+*{
+  margin: 0;
+  padding: 0;
+}
+body,html{
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background: $bg-color;
+}
+body{
+  transition: all 1s;
+  background: url("../img/default.png") no-repeat center center;
+  background-size: 100px;
+}

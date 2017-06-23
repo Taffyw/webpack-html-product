@@ -1,5 +1,8 @@
-/**
- * Created by 0 on 2017/6/22.
- */
-cats = require('./cat.js');
-console.log(cats);
+var base = require('./base')
+var global = require('./global')
+require('./app.scss')
+console.log(global);
+console.log(global.name);
+global.changeBg();
+// require('./index.css')
+console.log('index1');
